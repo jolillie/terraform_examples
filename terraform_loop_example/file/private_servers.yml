@@ -1,0 +1,36 @@
+---
+monitoring: true
+servers:
+  priv_server1_dev:
+    monitoring: true
+    instance_type: t2.nano
+    az: us-east-1
+    ebs_size: 100
+    tags:
+      project: Dev
+      comment: For Testing
+      requester: Jon_Lillie
+      SN: REQ1001
+      Department: IT
+  priv_server2_dev:
+    monitoring: true
+    instance_type: t2.nano
+    az: us-east-1
+    ebs_size: 100
+    tags:
+      project: Dev
+      comment: For Testing
+      requester: Jon_Lillie
+      SN: REQ1001
+      Department: IT
+  priv_server3_dev:
+    monitoring: true
+    instance_type: t2.nano
+    az: us-east-1
+    ebs_size: 100
+    tags:
+      project: Dev
+      comment: For Testing
+      requester: Jon_Lillie
+      SN: REQ1001
+      Department: IT

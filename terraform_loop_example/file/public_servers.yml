@@ -1,0 +1,25 @@
+---
+pub_server1:
+  type: amazon_linux
+  instance_type: t2.micro
+  az: us-east-1
+  key_name: test-key
+  ebs_size: 100
+  tags:
+    project: Dev
+    comment: For Testing
+    requester: Jon_Lillie
+    SN: REQ1001
+    Department: IT
+pub_server2:
+  type: amazon_linux
+  instance_type: t2.micro
+  az: us-east-1
+  key_name: test-key
+  ebs_size: 100
+  tags:
+    project: Dev
+    comment: For Testing
+    requester: Jon_Lillie
+    SN: REQ1001
+    Department: IT
