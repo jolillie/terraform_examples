@@ -12,6 +12,7 @@ on:
     branches: [ "main" ]
   schedule:
     - cron: '31 3 * * 1'
+  workflow_dispatch:
 
 jobs:
   tfsec:
